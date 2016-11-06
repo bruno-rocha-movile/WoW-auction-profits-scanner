@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ed48bbb-8c1c-47d2-90a9-3876c1eab95f" name="Default" comment="" />
+    <list default="true" id="1ed48bbb-8c1c-47d2-90a9-3876c1eab95f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/hello/JMSAppKt.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/hello/JMSAppKt.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/kotlin/hello/JMSApp.kt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/treeSnapshotUsage.bin" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/treeSnapshotUsage.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/treeSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/treeSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/META-INF/jmstest.bot-compileKotlin.kotlin_module" afterPath="$PROJECT_DIR$/build/classes/main/META-INF/jmstest.bot-compileKotlin.kotlin_module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/hello/HelloWorldKt.class" afterPath="$PROJECT_DIR$/build/classes/main/hello/HelloWorldKt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/distributions/jmstest.bot-1.0-SNAPSHOT.tar" afterPath="$PROJECT_DIR$/build/distributions/jmstest.bot-1.0-SNAPSHOT.tar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/distributions/jmstest.bot-1.0-SNAPSHOT.zip" afterPath="$PROJECT_DIR$/build/distributions/jmstest.bot-1.0-SNAPSHOT.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/META-INF/jmstest.bot-compileKotlin.kotlin_module" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/META-INF/jmstest.bot-compileKotlin.kotlin_module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/hello/HelloWorldKt.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/hello/HelloWorldKt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/sync/kotlin-files-in-java-timestamps.bin" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/sync/kotlin-files-in-java-timestamps.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/jmstest.bot_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/jmstest.bot_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/jmstest.bot_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/jmstest.bot_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/scripts/jmstest.bot" afterPath="$PROJECT_DIR$/build/scripts/jmstest.bot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/scripts/jmstest.bot.bat" afterPath="$PROJECT_DIR$/build/scripts/jmstest.bot.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/hello/HelloWorld.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/hello/HelloWorld.kt" />
+    </list>
     <ignored path="jmstest.bot.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -86,18 +115,44 @@
       <file leaf-file-name="HelloWorld.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/HelloWorld.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-              <folding />
+            <state relative-caret-position="180">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="e#15#179#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JMSApp.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/JMSApp.kt">
+      <file leaf-file-name="Log.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/util/Log.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            <state relative-caret-position="135">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <element signature="e#61#146#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringApplication.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/SpringApplication.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="e#62#187#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WowApp.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/WowApp.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -121,6 +176,9 @@
         <option value="Kotlin File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -159,29 +217,9 @@
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'jmstest.bot'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays the sub-projects of root project 'jmstest.bot'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="classes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in root project 'jmstest.bot'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs this project as a JVM application" />
@@ -192,16 +230,6 @@
                 <option name="description" value="Generates Gradle wrapper files. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="wrapper" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="testClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="javadoc" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Creates OS specific scripts to run the project as a JVM application." />
@@ -217,15 +245,6 @@
                 <option name="description" value="Displays the configuration model of root project 'jmstest.bot'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="copyMainKotlinClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Installs the project as a distribution as-is." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="installDist" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Processes main resources." />
@@ -248,13 +267,18 @@
                 <option name="name" value="init" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="copyTestKotlinClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Runs the unit tests." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyManagement" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Repackage existing JAR and WAR archives so that they can be executed from the command line using 'java -jar'" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="bootRepackage" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Compiles main Java source." />
@@ -262,34 +286,9 @@
                 <option name="name" value="compileJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Compiles the source set 'test'.kotlin." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileTestKotlin" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'jmstest.bot'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Runs all checks." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="check" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileTestJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs the project as a JVM application along with libs and OS specific scripts." />
@@ -307,21 +306,6 @@
                 <option name="name" value="processTestResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the source set 'main'.kotlin." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileKotlin" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects it depends on." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildNeeded" />
@@ -337,6 +321,98 @@
                 <option name="name" value="distZip" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'jmstest.bot'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'jmstest.bot'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="copyMainKotlinClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the project as a distribution as-is." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="installDist" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="copyTestKotlinClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Run the project with support for auto-detecting main class and reloading static resources" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="bootRun" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the source set 'test'.kotlin." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileTestKotlin" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'jmstest.bot'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the source set 'main'.kotlin." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileKotlin" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="findMainClass" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of root project 'jmstest.bot'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
@@ -348,7 +424,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="2955597871000" />
+        <entry key="$PROJECT_DIR$" value="2956108525000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -365,6 +441,8 @@
                           <list>
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/1.0.4/85a67e6cc41ebccc2a245b6cd5fff49c2dbacd11/kotlin-gradle-plugin-1.0.4-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/1.0.4/cc957149a09c2d5eba66099a1ae12f2d3ecd01da/kotlin-gradle-plugin-1.0.4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.4.1.RELEASE/4c84ae5e525c3e224cde2e90ca7e340b1f3a5714/spring-boot-gradle-plugin-1.4.1.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.4.1.RELEASE/899766b30092b5cc3467def7c8093baf39b8bf92/spring-boot-gradle-plugin-1.4.1.RELEASE.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.0.4/2487b33122122c55e74526bd1ee19b09e2e7185b/kotlin-stdlib-1.0.4-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.0.4/9c8d1a5d2eea3c9a7f58baa1a2fa11498cb41d0/kotlin-stdlib-1.0.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.0.4/e18b51ba7676a32041667ebec7ea4f12d9a5b009/kotlin-android-extensions-1.0.4-sources.jar" />
@@ -373,6 +451,10 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-core/1.0.4/a2f775fd0bb4112c54d7b3f7ce3a6239e2c941a5/kotlin-gradle-plugin-core-1.0.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/1.0.4/b94dedbbac3631a9ede64f69aeaaef76ff90a585/kotlin-gradle-plugin-api-1.0.4-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/1.0.4/4a2a245068f1557e72a4f43fb4d7fd75809a46b5/kotlin-gradle-plugin-api-1.0.4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.4.1.RELEASE/1665ad7bc97c7bc716fa9318adef4615d1101fc5/spring-boot-loader-tools-1.4.1.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.4.1.RELEASE/939fe186f9cb554862f3daab2400f5f91d62efdc/spring-boot-loader-tools-1.4.1.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/0.6.1.RELEASE/d324f1dab8d15e9e55507d9981de9e2b6f0b1c78/dependency-management-plugin-0.6.1.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/0.6.1.RELEASE/46cb985239502be3dcb94e0df45f797804e95fb8/dependency-management-plugin-0.6.1.RELEASE.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-runtime/1.0.4/6ee1e1c754b67931462c1cefa2e4a1f0889a5ea5/kotlin-runtime-1.0.4-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-runtime/1.0.4/8e25da5e31669f5acf514bdd99b94ff5c7003b3b/kotlin-runtime-1.0.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.0.4/92fba61186e690549ef57210fd0393bd7eb832fb/kotlin-compiler-embeddable-1.0.4-sources.jar" />
@@ -383,6 +465,10 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/ce1edb914c94ebc388f086c6827e8bdeec71ac2/commons-lang-2.6.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotation-processing/1.0.4/e5368844ac2e28f3abd697d5d73b6a5d48b26fa6/kotlin-annotation-processing-1.0.4-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotation-processing/1.0.4/769617872e8920e9688f58300c416c67464b96f8/kotlin-annotation-processing-1.0.4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.3.RELEASE/ee672807fd6afe5ab70e1d089e38ed925d527a36/spring-core-4.3.3.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.3.RELEASE/ffad13be3dac6eef7d2418a9de87c2a1592d3033/spring-core-4.3.3.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$" />
@@ -473,8 +559,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/kotlin/hello/helloworld.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/hello/StringExtension.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/hello/HelloWorld.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/hello/JMSApp.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/hello/WowApp.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/hello/SpringApplication.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/util/Log.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/hello/HelloWorld.kt" />
       </list>
     </option>
   </component>
@@ -487,8 +576,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="973" />
+    <option name="width" value="1366" />
+    <option name="height" value="661" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -497,7 +586,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -515,7 +604,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -556,14 +645,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jmstest.bot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jmstestgradle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kotlin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="hello" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -822,32 +937,32 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="973" extended-state="6" />
+    <frame x="0" y="23" width="1366" height="661" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31526548" sideWeight="0.49791667" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31526548" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3141892" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18229167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.240625" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18228404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24011713" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31526548" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -874,7 +989,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#15#179#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -883,8 +1000,7 @@
         <state relative-caret-position="495">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="62" />
           <folding>
-            <marker date="1477926961000" expanded="true" signature="397:432" ph="{...}" />
-            <marker date="1477926961000" expanded="true" signature="667:671" ph="{...}" />
+            <marker date="1478437615000" expanded="true" signature="397:432" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -897,19 +1013,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/HelloWorld.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/JMSApp.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/WowApp.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/util/Log.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#61#146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/HelloWorld.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/SpringApplication.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#62#187#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
