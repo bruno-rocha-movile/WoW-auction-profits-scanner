@@ -41,7 +41,7 @@ class WowApp {
 
     fun updatePrices(url: String, completion: (Int) -> Unit) {
         if (url == wowApiLink) {
-            print("Same as before. Skipping")
+            print("Auction house didn't updated yet. Skipping")
             return
         }
         wowApiLink = url
