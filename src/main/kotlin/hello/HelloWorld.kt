@@ -1,6 +1,5 @@
 package hello
 
-import com.github.kittinunf.fuel.*
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.SpringApplication
 

@@ -7,20 +7,23 @@ package hello
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-var starlightRosePrice: Long = 0
-var dreamLeafPrice: Long = 0
-var foxFlowerPrice: Long = 0
-var fjarnPrice: Long = 0
+val starlightRose: Long = 124105
+val dreamleaf: Long = 124102
+val foxflower: Long = 124103
+val fjarnskaggl: Long = 124104
+
+var data: MutableMap<Long,Long> = emptyMutableMap()
+fun emptyMutableMap(): MutableMap<Long,Long> = mutableMapOf()
 
 @RestController
 class Application {
     @RequestMapping("/")
     fun index(): String {
         val page = "\n" +
-                "Starlight Rose: " + starlightRosePrice + "\n" +
-                "Dreamleaf: " + dreamLeafPrice + "\n" +
-                "Foxflower: " + foxFlowerPrice + "\n" +
-                "Fjarnskaggl: " + fjarnPrice + "\n"
+                "Starlight Rose: " + data[starlightRose] + "\n" +
+                "Dreamleaf: " + data[dreamleaf] + "\n" +
+                "Foxflower: " + data[foxflower] + "\n" +
+                "Fjarnskaggl: " + data[fjarnskaggl] + "\n"
         return page
     }
 }

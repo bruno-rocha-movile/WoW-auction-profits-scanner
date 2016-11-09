@@ -2,37 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ed48bbb-8c1c-47d2-90a9-3876c1eab95f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_8_3.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/treeSnapshotUsage.bin" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/treeSnapshotUsage.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/treeSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/treeSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/META-INF/jmstest.bot-compileKotlin.kotlin_module" afterPath="$PROJECT_DIR$/build/classes/main/META-INF/jmstest.bot-compileKotlin.kotlin_module" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/hello/Application.class" afterPath="$PROJECT_DIR$/build/classes/main/hello/Application.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/hello/HelloWorldKt.class" afterPath="$PROJECT_DIR$/build/classes/main/hello/HelloWorldKt.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/hello/Main.class" afterPath="$PROJECT_DIR$/build/classes/main/hello/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/hello/SpringApplicationKt.class" afterPath="$PROJECT_DIR$/build/classes/main/hello/SpringApplicationKt.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/hello/WowApp.class" afterPath="$PROJECT_DIR$/build/classes/main/hello/WowApp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/distributions/jmstest.bot-1.0-SNAPSHOT.tar" afterPath="$PROJECT_DIR$/build/distributions/jmstest.bot-1.0-SNAPSHOT.tar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/distributions/jmstest.bot-1.0-SNAPSHOT.zip" afterPath="$PROJECT_DIR$/build/distributions/jmstest.bot-1.0-SNAPSHOT.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/META-INF/jmstest.bot-compileKotlin.kotlin_module" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/META-INF/jmstest.bot-compileKotlin.kotlin_module" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/hello/Application.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/hello/Application.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/hello/HelloWorldKt.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/hello/HelloWorldKt.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/hello/Main.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/hello/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/hello/SpringApplicationKt.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/hello/SpringApplicationKt.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/hello/WowApp.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/hello/WowApp.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/sync/kotlin-files-in-java-timestamps.bin" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/sync/kotlin-files-in-java-timestamps.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/wowauctions-0.1.0.jar" afterPath="$PROJECT_DIR$/build/libs/wowauctions-0.1.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/wowauctions-0.1.0.jar.original" afterPath="$PROJECT_DIR$/build/libs/wowauctions-0.1.0.jar.original" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/jmstest.bot_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/jmstest.bot_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/jmstest.bot_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/jmstest.bot_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/hello/HelloWorld.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/hello/HelloWorld.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/hello/SpringApplication.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/hello/SpringApplication.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/hello/WowApp.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/hello/WowApp.kt" />
@@ -121,20 +106,20 @@
       <file leaf-file-name="HelloWorld.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/HelloWorld.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="15">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding>
-                <element signature="e#15#167#0" expanded="true" />
+                <element signature="e#15#132#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuctionData.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AuctionData.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/AuctionData.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="76">
+              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
               <folding>
                 <element signature="e#62#109#0" expanded="true" />
               </folding>
@@ -145,18 +130,18 @@
       <file leaf-file-name="WowApp.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/WowApp.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="88" column="22" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="22" />
+            <state relative-caret-position="271">
+              <caret line="75" column="32" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpringApplication.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SpringApplication.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/SpringApplication.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            <state relative-caret-position="210">
+              <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
               <folding>
                 <element signature="e#62#187#0" expanded="true" />
               </folding>
@@ -560,8 +545,8 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/hello/APIClient.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/hello/AuctionData.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/hello/HelloWorld.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/hello/SpringApplication.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/hello/WowApp.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/hello/SpringApplication.kt" />
       </list>
     </option>
   </component>
@@ -1010,7 +995,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#15#167#0" expanded="true" />
+            <element signature="e#15#132#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1030,7 +1015,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#15#167#0" expanded="true" />
+            <element signature="e#15#132#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1040,7 +1025,7 @@
         <state relative-caret-position="495">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="62" />
           <folding>
-            <marker date="1478722177000" expanded="true" signature="397:432" ph="{...}" />
+            <marker date="1478722335000" expanded="true" signature="397:432" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1097,38 +1082,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/HelloWorld.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <element signature="e#15#167#0" expanded="true" />
+            <element signature="e#15#132#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/SpringApplication.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/AuctionData.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        <state relative-caret-position="76">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
           <folding>
-            <element signature="e#62#187#0" expanded="true" />
+            <element signature="e#62#109#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/WowApp.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="88" column="22" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="22" />
+        <state relative-caret-position="271">
+          <caret line="75" column="32" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/AuctionData.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/SpringApplication.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
           <folding>
-            <element signature="e#62#109#0" expanded="true" />
+            <element signature="e#62#187#0" expanded="true" />
           </folding>
         </state>
       </provider>

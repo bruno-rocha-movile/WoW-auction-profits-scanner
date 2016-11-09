@@ -64,31 +64,16 @@ class WowApp {
     fun checkIfLowerPrice(auctions: List<Auctions>) {
         println("Auctions retrieved. Checking lower prices", ANSI_YELLOW)
         resetPrices()
-        val starLightRoseId: Long = 124105
-        val dreamLeafId: Long = 124102
-        val foxFlowerId: Long = 124103
-        val fjarnId: Long = 124104
-        auctions.forEach {
-            if (it.item == starLightRoseId && it.unitPrice() < starlightRosePrice) {
-                starlightRosePrice = it.unitPrice()
-            }
-            if (it.item == dreamLeafId && it.unitPrice() < dreamLeafPrice) {
-                dreamLeafPrice = it.unitPrice()
-            }
-            if (it.item == foxFlowerId && it.unitPrice() < foxFlowerPrice) {
-                foxFlowerPrice = it.unitPrice()
-            }
-            if (it.item == fjarnId && it.unitPrice() < fjarnPrice) {
-                fjarnPrice = it.unitPrice()
+        auctions.forEach { auction ->
+            val currentLowerPrice: Long? = data[auction.item]
+            if (currentLowerPrice == null || auction.unitPrice() < currentLowerPrice) {
+                data[auction.item] = auction.unitPrice()
             }
         }
     }
 
     fun resetPrices() {
-        starlightRosePrice = defaultPrice
-        dreamLeafPrice = defaultPrice
-        foxFlowerPrice = defaultPrice
-        fjarnPrice = defaultPrice
+        data = emptyMutableMap()
     }
 
     fun finishUpdate(result: Int) {
