@@ -8,22 +8,11 @@ package hello
 class WowApp {
 
     fun start() {
-        showGreeting()
         updateAuctionData()
     }
 
-    fun showGreeting() {
-        println("---------------------------------")
-        println("---------------------------------")
-        println("---------------------------------")
-        println("---Auction 0.1 by Bruno Rocha----", ANSI_BLUE)
-        println("---------------------------------")
-        println("---------------------------------")
-        println("---------------------------------")
-    }
-
     fun updateAuctionData() {
-        println("Retrieving Auction House data", ANSI_YELLOW)
+        println("Retrieving latest Auction House data url...", ANSI_YELLOW)
         val api: BattleNetAPI = BattleNetAPI()
         val callResponse = api.getRightUrl()
         val response = callResponse.execute()
@@ -46,7 +35,6 @@ class WowApp {
         }
         wowApiLink = url
         var baseURL = url.split("auctions.json")[0]
-        println("Base auction data url parsed from response: " + baseURL, ANSI_WHITE)
         println("Retrieving auctions", ANSI_YELLOW)
         val api = WoWApi()
         val callResponse = api.getAllAuctions(baseURL)
