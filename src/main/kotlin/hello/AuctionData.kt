@@ -29,7 +29,7 @@ class Auctions (
     val quantity: Int
 )
 
-val defaultPrice: Long = 99999999
+val defaultPrice: Long = 99999999999
 
 fun Auctions.unitPrice(): Long {
     val zeroCost: Long = 0
