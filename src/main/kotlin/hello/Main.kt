@@ -28,7 +28,7 @@ open class Main {
         var properties: Properties? = null
         val attemptFilenames = arrayOf("config.properties", "config.properties.txt", "config.properties.rtf")
         val dir = File(System.getProperty("java.class.path")).absoluteFile.parentFile
-        var filename = "";
+        var filename: String
         fileLoop@ for (path in arrayOf(Paths.get("").toAbsolutePath(), dir)) {
             for (attemptFilename in attemptFilenames) {
                 try {

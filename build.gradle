@@ -23,7 +23,7 @@ jar {
     version =  '0.1.0'
 }
 
-mainClassName = 'hello.HelloWorldKt'
+mainClassName = 'hello.MainKt'
 
 sourceCompatibility = 1.5
 
