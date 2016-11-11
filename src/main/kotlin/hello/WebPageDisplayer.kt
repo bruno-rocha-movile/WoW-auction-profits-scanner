@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
 import util.formattedHTMLWowPrice
 
-var data: Data = Data(minimumBuyouts = emptyMutableAuctionMap(), priceSectionIds = listOf(), profitSectionIds = emptyMutableProfitMap())
+var data: Data = Data(minimumBuyouts = emptyMutableAuctionMap(), priceSectionIds = listOf(), profitSectionIds = listOf())
 
 @RestController
 class WebPageDisplayer {
@@ -19,32 +19,34 @@ class WebPageDisplayer {
 
     fun minimumBuyouts():String {
         var page = "Minimum Buyouts:<br>"
-        for (id in data.priceSectionIds) {
-            if (data.minimumBuyouts[id] == null) {
-                page += id.toString() + ": No auctions <br>"
-                continue
+        for (item in data.priceSectionIds) {
+            page += item.name + ": "
+            if (data.minimumBuyouts[item.id] == null) {
+                page += "No auctions"
+            } else {
+                page += data.minimumBuyouts[item.id]?.formattedHTMLWowPrice()
             }
-            page += id.toString() + ": " + data.minimumBuyouts[id]?.formattedHTMLWowPrice() + "<br>"
+            page += "<br>"
         }
         return page
     }
 
     fun profitData():String {
         var page = "Profit Data:<br>"
-        for ((id,formula) in data.profitSectionIds) {
-            if (data.minimumBuyouts[id] == null) {
-                page += id.toString() + ": Item has no auctions! <br>"
+        for (item in data.profitSectionIds) {
+            if (data.minimumBuyouts[item.id] == null) {
+                page += item.name + ": Item has no auctions! <br>"
                 continue
             }
             var craftPrice: Double = 0.0
-            for (componentId in formula) {
+            for (componentId in item.formula) {
                 if (data.minimumBuyouts[componentId] == null) {
-                    page += id.toString() + ": One of the components of this item has no auctions. <br>"
+                    page += item.name + ": One of the components of this item has no auctions. <br>"
                     continue
                 }
                 craftPrice += data.minimumBuyouts[componentId]!!.toDouble()
             }
-            val minimumBuyout: Double = data.minimumBuyouts[id]!!.toDouble()
+            val minimumBuyout: Double = data.minimumBuyouts[item.id]!!.toDouble()
             val sellCost = minimumBuyout * 0.95
             var pct = sellCost/craftPrice
             var result = "PROFIT"
@@ -54,7 +56,7 @@ class WebPageDisplayer {
                 pct = 1 - pct
                 result = "LOSS"
             }
-            page += id.toString() + ": Minimum buyout is " + data.minimumBuyouts[id]?.formattedHTMLWowPrice() + " which is a " + String.format("%.2f",(pct*100)) + "% " + result +" after AH's cut (craft price: "+craftPrice.toLong().formattedHTMLWowPrice()+")<br>"
+            page += item.name + ": Minimum buyout is " + data.minimumBuyouts[item.id]?.formattedHTMLWowPrice() + " which is a " + String.format("%.2f",(pct*100)) + "% " + result +" after AH's cut (craft price: "+craftPrice.toLong().formattedHTMLWowPrice()+")<br>"
         }
         return page
     }

@@ -34,5 +34,4 @@ class WoWApi {
                 .build()
         return retrofit.create(WoWApiInterface::class.java).getAllAuctions()
     }
-
 }

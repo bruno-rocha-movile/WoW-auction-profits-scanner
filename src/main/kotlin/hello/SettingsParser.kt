@@ -8,39 +8,49 @@ import java.util.*
 
 data class Data (
         var minimumBuyouts: MutableMap<Long,Long>,
-        val priceSectionIds: List<Long>,
-        val profitSectionIds: MutableMap<Long,MutableList<Long>>
+        val priceSectionIds: List<WowItem>,
+        val profitSectionIds: List<WowItem>
 )
 
 class SettingsParser(val properties: Properties) {
     fun createSettingsFromProperties(): Data {
-        val defaults = Data(minimumBuyouts = emptyMutableAuctionMap(), priceSectionIds = listOf(), profitSectionIds = emptyMutableProfitMap())
         return Data (
                 minimumBuyouts = emptyMutableAuctionMap(),
-                priceSectionIds = (getPropertyIfSet("priceSectionIds", defaults.priceSectionIds, String::toString) as String).split(",").filter { it.isNotBlank() }.map { it.toLong() },
-                profitSectionIds = (getPropertyIfSet("profitSectionIds", defaults.profitSectionIds, String::toString) as String).parsedProfitData()
+                priceSectionIds = getPropertyIfSet("priceSectionInfo").parsedPriceData(),
+                profitSectionIds = getPropertyIfSet("profitSectionInfo").parsedProfitData()
         )
     }
 
-    fun <T> getPropertyIfSet(property: String, default: T, conversion: (String) -> T): T {
+    fun getPropertyIfSet(property: String): String {
         if (!properties.containsKey(property)) {
-            return default
+            println("Missing "+property+" configuration")
+            System.exit(1)
+            return ""
         }
-        try {
-            return conversion(properties.getProperty(property))
-        } catch (e: Exception) {
-            return default
-        }
+        return properties.getProperty(property)
     }
 }
 
-fun String.parsedProfitData():MutableMap<Long,MutableList<Long>> {
-    var finalParsedData:MutableMap<Long,MutableList<Long>> = emptyMutableProfitMap()
+fun String.parsedPriceData():List<WowItem> {
+    var finalParsedData:MutableList<WowItem> = mutableListOf()
+    val items = this.split(",")
+    for (itemData in items) {
+        val splitData = itemData.split(":")
+        val itemId = splitData[0].toLong()
+        val itemName = splitData[1]
+        finalParsedData.add(WowItem(id = itemId, name = itemName))
+    }
+    return finalParsedData
+}
+
+fun String.parsedProfitData():List<WowItem> {
+    var finalParsedData:MutableList<WowItem> = mutableListOf()
     val items = this.split("|")
     for (itemData in items) {
         val splitData = itemData.split(":")
         val itemId = splitData[0].toLong()
-        val formulas = splitData[1].split("formula=")[1].split(",")
+        val itemName = splitData[1]
+        val formulas = splitData[2].split("formula=")[1].split(",")
         var parsedFormulaList:MutableList<Long> = mutableListOf()
         for (formula in formulas) {
             val splitFormulaData = formula.split("*")
@@ -50,7 +60,7 @@ fun String.parsedProfitData():MutableMap<Long,MutableList<Long>> {
                 parsedFormulaList.add(componentId)
             }
         }
-        finalParsedData[itemId] = parsedFormulaList
+        finalParsedData.add(WowItem(id = itemId, name = itemName, formula = parsedFormulaList))
     }
     return finalParsedData
 }
