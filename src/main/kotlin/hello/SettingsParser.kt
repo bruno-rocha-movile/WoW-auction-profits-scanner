@@ -17,6 +17,7 @@ class SettingsParser(val properties: Properties) {
     fun createSettingsFromProperties(): Data {
         server = getPropertyOrDie("AH Realm", "realm", String::toString).toLowerCase()
         region = getPropertyOrDie("AH Region", "region", String::toString).toLowerCase()
+        apiKey = getPropertyOrDie("API Key", "apikey", String::toString)
         return Data (
                 minimumBuyouts = emptyMutableAuctionMap(),
                 priceSectionIds = getPropertyIfSet("priceSectionInfo").parsedPriceData(),

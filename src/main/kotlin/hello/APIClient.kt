@@ -10,6 +10,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 var server = "goldrinn"
 var region = "us"
+var apiKey = ""
 
 class BattleNetAPI {
     private val bnApi: BattleNetApiInterface
@@ -24,7 +25,7 @@ class BattleNetAPI {
     }
 
     fun getRightUrl(): Call<BattleNetResponse> {
-        return bnApi.getAuctionData(server)
+        return bnApi.getAuctionData(server, apiKey)
     }
 
 }
