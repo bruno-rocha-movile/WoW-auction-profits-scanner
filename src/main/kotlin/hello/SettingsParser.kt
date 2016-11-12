@@ -4,6 +4,7 @@ package hello
  * Created by bruno.rocha on 11/11/16.
  */
 
+import util.*
 import java.util.*
 
 data class Data (
@@ -14,6 +15,8 @@ data class Data (
 
 class SettingsParser(val properties: Properties) {
     fun createSettingsFromProperties(): Data {
+        server = getPropertyOrDie("AH Realm", "realm", String::toString).toLowerCase()
+        region = getPropertyOrDie("AH Region", "region", String::toString).toLowerCase()
         return Data (
                 minimumBuyouts = emptyMutableAuctionMap(),
                 priceSectionIds = getPropertyIfSet("priceSectionInfo").parsedPriceData(),
@@ -28,6 +31,25 @@ class SettingsParser(val properties: Properties) {
             return ""
         }
         return properties.getProperty(property)
+    }
+
+    fun <T> getPropertyOrDie(description: String, property: String, conversion: (String) -> T): T {
+        val settingString = "$description setting (\"$property\")"
+
+        if (!properties.containsKey(property)) {
+            println("$settingString not specified in config.properties!", ANSI_RED)
+            System.exit(1)
+        }
+
+        var result: T?
+        try {
+            result = conversion(properties.getProperty(property))
+        } catch (e: Exception) {
+            println("Failed to interpret $settingString",ANSI_RED)
+            System.exit(1)
+            throw IllegalArgumentException()
+        }
+        return result
     }
 }
 

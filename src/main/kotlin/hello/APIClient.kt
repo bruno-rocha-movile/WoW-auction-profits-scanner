@@ -8,12 +8,15 @@ import retrofit2.converter.gson.GsonConverterFactory
  * Created by bruno.rocha on 11/9/16.
  */
 
+var server = "goldrinn"
+var region = "us"
+
 class BattleNetAPI {
     private val bnApi: BattleNetApiInterface
 
     init {
         val retrofit = Retrofit.Builder()
-                .baseUrl("https://us.api.battle.net")
+                .baseUrl("https://$region.api.battle.net/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()
 
@@ -21,7 +24,7 @@ class BattleNetAPI {
     }
 
     fun getRightUrl(): Call<BattleNetResponse> {
-        return bnApi.getAuctionData()
+        return bnApi.getAuctionData(server)
     }
 
 }

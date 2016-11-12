@@ -6,6 +6,7 @@ package hello
 
 import retrofit2.Call
 import retrofit2.http.GET
+import retrofit2.http.Path
 
 class BattleNetResponse(val files: List<BattleNetFileField>)
 
@@ -14,8 +15,8 @@ class BattleNetFileField (
 )
 
 interface BattleNetApiInterface {
-    @GET("/wow/auction/data/goldrinn?locale=en_US&apikey=up2f3jkvtjm7mu6b8dvrg5y2m69a59tr")
-    fun getAuctionData(): Call<BattleNetResponse>
+    @GET("/wow/auction/data/{server}?locale=en_US&apikey=up2f3jkvtjm7mu6b8dvrg5y2m69a59tr")
+    fun getAuctionData(@Path("server") server: String): Call<BattleNetResponse>
 }
 
 //==================

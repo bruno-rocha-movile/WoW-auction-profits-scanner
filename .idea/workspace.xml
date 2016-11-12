@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ed48bbb-8c1c-47d2-90a9-3876c1eab95f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/hello/SettingsParser$createSettingsFromProperties$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/hello/SettingsParser$createSettingsFromProperties$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/hello/SettingsParser$createSettingsFromProperties$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/hello/SettingsParser$createSettingsFromProperties$4.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileSnapshots.bin" />
@@ -13,22 +9,38 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/treeSnapshotUsage.bin" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/treeSnapshotUsage.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/treeSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/treeSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/META-INF/jmstest.bot-compileKotlin.kotlin_module" afterPath="$PROJECT_DIR$/build/classes/main/META-INF/jmstest.bot-compileKotlin.kotlin_module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/hello/AuctionDataKt.class" afterPath="$PROJECT_DIR$/build/classes/main/hello/AuctionDataKt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/hello/Auctions.class" afterPath="$PROJECT_DIR$/build/classes/main/hello/Auctions.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/hello/BattleNetAPI.class" afterPath="$PROJECT_DIR$/build/classes/main/hello/BattleNetAPI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/hello/BattleNetApiInterface.class" afterPath="$PROJECT_DIR$/build/classes/main/hello/BattleNetApiInterface.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/hello/BattleNetFileField.class" afterPath="$PROJECT_DIR$/build/classes/main/hello/BattleNetFileField.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/hello/BattleNetResponse.class" afterPath="$PROJECT_DIR$/build/classes/main/hello/BattleNetResponse.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/hello/Data.class" afterPath="$PROJECT_DIR$/build/classes/main/hello/Data.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/hello/Realms.class" afterPath="$PROJECT_DIR$/build/classes/main/hello/Realms.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/hello/SettingsParser.class" afterPath="$PROJECT_DIR$/build/classes/main/hello/SettingsParser.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/hello/SettingsParserKt.class" afterPath="$PROJECT_DIR$/build/classes/main/hello/SettingsParserKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/hello/WebPageDisplayer.class" afterPath="$PROJECT_DIR$/build/classes/main/hello/WebPageDisplayer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/hello/WebPageDisplayerKt.class" afterPath="$PROJECT_DIR$/build/classes/main/hello/WebPageDisplayerKt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/hello/WoWApi.class" afterPath="$PROJECT_DIR$/build/classes/main/hello/WoWApi.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/hello/WoWResponse.class" afterPath="$PROJECT_DIR$/build/classes/main/hello/WoWResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/META-INF/jmstest.bot-compileKotlin.kotlin_module" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/META-INF/jmstest.bot-compileKotlin.kotlin_module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/hello/AuctionDataKt.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/hello/AuctionDataKt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/hello/Auctions.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/hello/Auctions.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/hello/BattleNetAPI.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/hello/BattleNetAPI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/hello/BattleNetApiInterface.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/hello/BattleNetApiInterface.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/hello/BattleNetFileField.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/hello/BattleNetFileField.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/hello/BattleNetResponse.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/hello/BattleNetResponse.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/hello/Data.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/hello/Data.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/hello/Realms.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/hello/Realms.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/hello/SettingsParser.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/hello/SettingsParser.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/hello/SettingsParserKt.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/hello/SettingsParserKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/hello/WebPageDisplayer.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/hello/WebPageDisplayer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/hello/WebPageDisplayerKt.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/hello/WebPageDisplayerKt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/hello/WoWApi.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/hello/WoWApi.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin-classes/main/hello/WoWResponse.class" afterPath="$PROJECT_DIR$/build/kotlin-classes/main/hello/WoWResponse.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/sync/kotlin-files-in-java-timestamps.bin" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/sync/kotlin-files-in-java-timestamps.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.properties" afterPath="$PROJECT_DIR$/config.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/hello/APIClient.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/hello/APIClient.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/hello/AuctionData.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/hello/AuctionData.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/hello/SettingsParser.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/hello/SettingsParser.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/hello/WebPageDisplayer.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/hello/WebPageDisplayer.kt" />
     </list>
     <ignored path="jmstest.bot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -111,12 +123,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SettingsParser.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SettingsParser.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/SettingsParser.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-              <folding />
+            <state relative-caret-position="255">
+              <caret line="18" column="88" selection-start-line="18" selection-start-column="88" selection-end-line="18" selection-end-column="88" />
+              <folding>
+                <element signature="e#63#95#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,8 +148,8 @@
       <file leaf-file-name="APIClient.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/APIClient.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+            <state relative-caret-position="105">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -154,20 +168,20 @@
       <file leaf-file-name="WowDataRetriever.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/WowDataRetriever.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+            <state relative-caret-position="67">
+              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuctionData.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AuctionData.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/AuctionData.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="36">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding>
-                <element signature="e#62#109#0" expanded="true" />
+                <element signature="e#62#136#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -176,7 +190,7 @@
       <file leaf-file-name="WebPageDisplayer.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/WebPageDisplayer.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="120">
               <caret line="10" column="121" selection-start-line="10" selection-start-column="121" selection-end-line="10" selection-end-column="121" />
               <folding>
                 <element signature="e#62#221#0" expanded="true" />
@@ -600,15 +614,15 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/util/Log.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/hello/WowApp.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/hello/SpringApplication.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/hello/AuctionData.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/hello/HelloWorld.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/hello/WowDataRetriever.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/hello/Main.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/util/WebPageHelpers.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/hello/WoWItem.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/hello/WebPageDisplayer.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/hello/SettingsParser.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/hello/WowDataRetriever.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/hello/AuctionData.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/hello/APIClient.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/hello/SettingsParser.kt" />
       </list>
     </option>
   </component>
@@ -620,9 +634,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="973" />
+    <option name="x" value="14" />
+    <option name="y" value="42" />
+    <option name="width" value="1366" />
+    <option name="height" value="661" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -650,6 +665,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -681,67 +698,9 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jmstest.bot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jmstestgradle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jmstest.bot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jmstestgradle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hello" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1001,18 +960,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="973" extended-state="6" />
+    <frame x="14" y="42" width="1366" height="661" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31328037" sideWeight="0.5168375" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31282952" sideWeight="0.5168375" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13312034" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13293052" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24011713" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1074,11 +1033,73 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/APIClient.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/WowDataRetriever.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/AuctionData.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#62#136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/WebPageDisplayer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="121" selection-start-line="10" selection-start-column="121" selection-end-line="10" selection-end-column="121" />
+          <folding>
+            <element signature="e#62#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/util/WebPageHelpers.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/util/StringExtension.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/SettingsParser.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="48" column="31" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="31" />
-          <folding />
+          <folding>
+            <element signature="e#63#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1111,7 +1132,7 @@
         <state relative-caret-position="195">
           <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding>
-            <element signature="e#62#109#0" expanded="true" />
+            <element signature="e#62#136#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1138,7 +1159,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#63#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1171,7 +1194,7 @@
         <state relative-caret-position="180">
           <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding>
-            <element signature="e#62#109#0" expanded="true" />
+            <element signature="e#62#136#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1182,7 +1205,7 @@
         <state relative-caret-position="315">
           <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
           <folding>
-            <element signature="e#62#109#0" expanded="true" />
+            <element signature="e#62#136#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1195,7 +1218,7 @@
         <state relative-caret-position="330">
           <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
           <folding>
-            <element signature="e#62#109#0" expanded="true" />
+            <element signature="e#62#136#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1208,7 +1231,7 @@
         <state relative-caret-position="315">
           <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
           <folding>
-            <element signature="e#62#109#0" expanded="true" />
+            <element signature="e#62#136#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1280,7 +1303,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/WebPageDisplayer.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="120">
           <caret line="10" column="121" selection-start-line="10" selection-start-column="121" selection-end-line="10" selection-end-column="121" />
           <folding>
             <element signature="e#62#221#0" expanded="true" />
@@ -1296,14 +1319,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/SettingsParser.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1314,26 +1329,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/WowDataRetriever.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/APIClient.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        <state relative-caret-position="67">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/AuctionData.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="36">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding>
-            <element signature="e#62#109#0" expanded="true" />
+            <element signature="e#62#136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/APIClient.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/hello/SettingsParser.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="88" selection-start-line="18" selection-start-column="88" selection-end-line="18" selection-end-column="88" />
+          <folding>
+            <element signature="e#63#95#0" expanded="true" />
           </folding>
         </state>
       </provider>
