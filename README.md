@@ -6,7 +6,11 @@ Web app that displays minimum buyouts and profit percentages for WoW items.
 
 # Configuration
 
-Open config.properties to setup your realm information and add the IDs of the items you want to track. You can find them at Wowhead's urls, like http://www.wowhead.com/item=124105/starlight-rose (Starlight Rose's id is 124105)
+Get a WoW api key from https://dev.battle.net/
+
+Open config example.properties to setup your realm information and add the IDs of the items you want to track. You can find them at Wowhead's urls, like http://www.wowhead.com/item=124105/starlight-rose (Starlight Rose's id is 124105)
+
+Rename it to config.properties afterwards
 
 # Running
 
